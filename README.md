@@ -1,24 +1,27 @@
-# Compound Exporter
+# Compound SCSS Exporter
 
-This exporter outputs CSS variable files from Supernova Design Tokens
+This exporter outputs SCSS variable files from Supernova Design Tokens
 
 ## Exporter Features
 
-- Each token is prefixed with "co-"
+- Each token is prefixed with "$co"
 - Each token type is created in it's own file
 
 ## Example of Output
 
 Given any design system, the exporter will produce CSS color definitions in the following format:
 
-```css
+```scss
 /* This file was automatically generated. Do not modify manually. */
 
-:root {
-  --co-color-action-primary-border: #ffffff00;
-  --co-color-action-primary-hover-border: #ffffff00;
-  --co-color-action-secondary-background: #ffffff00;
-  --co-color-action-tertiary-background: #ffffff00;
-  --co-color-action-tertiary-border: #ffffff00;
-}
+$co-typography-heading-8-xl: "700" $co-font-size-8-xl/$co-line-height-8-xl
+  "Ubuntu";
+/* Use for headings */
+$co-typography-heading-7-xl: "700" $co-font-size-7-xl/$co-line-height-7-xl
+  "Ubuntu";
+/* Large H2, Small H1 */
+$co-typography-heading-6-xl: "700" $co-font-size-6-xl/$co-line-height-6-xl
+  "Ubuntu";
+$co-typography-heading-5-xl: "700" $co-font-size-5-xl/$co-line-height-5-xl
+  "Ubuntu";
 ```
