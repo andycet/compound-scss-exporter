@@ -1,0 +1,14 @@
+{
+  "id": "PhoenixGroup.exporter-SCSS",
+  "name": "SCSS Exporter",
+  "description": "Export your design system data into SCSS Variables",
+  "author": "Andy Cetnarskyj",
+  "organization": "Phoenix Group",
+  "homepage": "https://www.phoenixgroup.com",
+  "version": "1.0.0",
+  "usesBrands": true,
+  "usesThemes": true,
+  "executable": "/dist/build.js",
+  "engine": "latest",
+  "tags": ["SCSS"]
+}

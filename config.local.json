@@ -1,0 +1,30 @@
+{
+  "tokenNameStyle": "paramCase",
+  "tokenPrefixes": {
+    "Color": "co-color",
+    "Typography": "co-typography",
+    "Dimension": "co-dimension",
+    "Size": "co-size",
+    "Space": "co-space",
+    "Opacity": "co-opacity",
+    "FontSize": "co-fontSize",
+    "LineHeight": "co-lineHeight",
+    "LetterSpacing": "co-letterSpacing",
+    "ParagraphSpacing": "co-paragraphSpacing",
+    "BorderWidth": "co-borderWidth",
+    "BorderRadius": "co-borderRadius",
+    "Duration": "co-duration",
+    "ZIndex": "co-zIndex",
+    "Shadow": "co-shadow",
+    "Border": "co-border",
+    "Gradient": "co-gradient",
+    "String": "co-string",
+    "ProductCopy": "co-productCopy",
+    "FontFamily": "co-fontFamily",
+    "FontWeight": "co-fontWeight",
+    "TextCase": "co-textCase",
+    "TextDecoration": "co-textDecoration",
+    "Visibility": "co-visibility",
+    "Blur": "co-blur"
+  }
+}
